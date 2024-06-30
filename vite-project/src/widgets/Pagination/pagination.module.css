@@ -1,0 +1,10 @@
+.btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btn > img{
+    object-fit: cover;
+}

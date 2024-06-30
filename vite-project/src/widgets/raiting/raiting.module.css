@@ -1,0 +1,16 @@
+.starRating {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star {
+    cursor: pointer;
+    color: #ABABAB;
+    /* border: 1px solid #ABABAB; */
+}
+
+.filled {
+    cursor: pointer;
+    color: #FF5500;
+}

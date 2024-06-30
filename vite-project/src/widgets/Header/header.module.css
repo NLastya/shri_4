@@ -1,0 +1,35 @@
+.header{
+    position: sticky;
+    height: 40px;
+    color: #999FA6;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #333333;
+    padding: 26px 32px;
+    z-index: 1000;
+    top: 0;
+}
+
+.fl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.btnExit{
+    border: 1px solid #FF5500;
+    padding: 10px 16px;
+    color: #FF5500;
+    background-color: #333333;
+}
+
+.btnLog{
+    background-color: #FF5500;
+    padding: 10px 16px;
+    color: white;
+    margin-right: 8px;
+}

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "lodash": "^4.17.21",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6"
+  }
+}

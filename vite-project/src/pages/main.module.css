@@ -1,0 +1,54 @@
+.main{
+    background-color: #EDEDED;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px calc(100vw - 1856px) 24px;
+    gap: 20px;
+    min-height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+
+.actors {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .listActors {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 20px 0;
+  }
+  
+  .actorImg {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .scrollButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .scrollLeft {
+    left: 0;
+  }
+  
+  .scrollRight {
+    right: 0;
+  }
