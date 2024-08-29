@@ -1,0 +1,17 @@
+.select{
+    width: 360px;
+    padding: 10px;
+    position: relative;
+    background: url('../../../../public/icons/arrow-square-down.svg') no-repeat calc(100% - 10px) white;
+    color: #999FA6;
+    border: none;
+    border-radius: 8px;
+    appearance: none;
+    outline: none;
+    border: 1px solid #E1E3E6;
+}
+
+.select:focus{
+    border: 1px solid #FF5500;
+    outline: 1px solid #FF5500;
+}
